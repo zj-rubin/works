@@ -3,209 +3,318 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Poetry & Fiction - Literary Works</title>
+    <title>Poetry & Fiction - Z.J. Rubin Literary Works</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
         body {
-            font-family: 'Georgia', 'Times New Roman', serif;
-            background: linear-gradient(135deg, #1e3c72, #2a5298);
-            min-height: 100vh;
-            color: #333;
-            line-height: 1.6;
+            font-family: "Times New Roman", serif;
+            background-color: #000080;
+            color: #C0C0C0;
+            margin: 0;
+            padding: 20px;
+            background-image: 
+                radial-gradient(circle at 20% 50%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.15) 0%, transparent 50%),
+                radial-gradient(circle at 40% 80%, rgba(120, 200, 255, 0.1) 0%, transparent 50%);
         }
 
         .container {
-            max-width: 1200px;
-            margin: 0 auto;
+            max-width: 800px;
+            margin: 0;
             padding: 0 20px;
         }
 
-        header {
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
-            padding: 1rem 0;
-            position: fixed;
-            width: 100%;
-            top: 0;
-            z-index: 1000;
-            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
-        }
-
-        nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .logo {
-            font-size: 1.8rem;
+        h1 {
+            color: #FFFF00;
+            font-size: 28px;
+            text-shadow: 2px 2px 0px #000000;
+            margin: 20px 0;
+            text-align: center;
             font-weight: bold;
-            color: #2a5298;
+        }
+
+        h2 {
+            color: #00FFFF;
+            font-size: 20px;
+            text-decoration: underline;
+            margin: 25px 0 15px 0;
+        }
+
+        h3 {
+            color: #FFFF00;
+            font-size: 18px;
+            margin: 20px 0 10px 0;
+        }
+
+        p {
+            line-height: 1.6;
+            margin: 10px 0;
+            text-align: justify;
+        }
+
+        a:link {
+            color: #00FFFF;
+            text-decoration: underline;
+        }
+
+        a:visited {
+            color: #FF69B4;
+            text-decoration: underline;
+        }
+
+        a:hover {
+            color: #FFFF00;
+            background-color: #000040;
             text-decoration: none;
+        }
+
+        .nav-section {
+            background-color: #000040;
+            border: 2px solid #00FFFF;
+            padding: 15px;
+            margin: 20px 0;
+            text-align: center;
         }
 
         .nav-links {
-            display: flex;
-            list-style: none;
-            gap: 2rem;
+            margin: 15px 0;
         }
 
         .nav-links a {
+            color: #00FFFF;
+            font-size: 16px;
+            font-weight: bold;
             text-decoration: none;
-            color: #333;
-            font-weight: 500;
-            transition: color 0.3s ease;
-            position: relative;
+            margin: 0 15px;
+            padding: 6px 12px;
+            border: 1px solid #00FFFF;
+            background-color: #000080;
+            display: inline-block;
+            margin-bottom: 8px;
         }
 
-        .nav-links a:hover, .nav-links a.active {
-            color: #2a5298;
+        .nav-links a:hover {
+            background-color: #00FFFF;
+            color: #000080;
         }
 
-        .nav-links a::after {
-            content: '';
-            position: absolute;
-            width: 0;
-            height: 2px;
-            bottom: -5px;
-            left: 0;
-            background: #2a5298;
-            transition: width 0.3s ease;
-        }
-
-        .nav-links a:hover::after, .nav-links a.active::after {
-            width: 100%;
-        }
-
-        main {
-            margin-top: 80px;
-            padding: 4rem 0;
+        .nav-links a.active {
+            background-color: #FFFF00;
+            color: #000080;
+            border-color: #FFFF00;
         }
 
         .page-header {
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-            border-radius: 15px;
-            padding: 3rem;
+            background-color: #000040;
+            border: 3px solid #FFFF00;
+            padding: 20px;
+            margin: 30px 0;
             text-align: center;
-            margin: 2rem 0;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         }
 
         .page-header h1 {
-            color: white;
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-        }
-
-        .page-header p {
-            color: rgba(255, 255, 255, 0.9);
-            font-size: 1.2rem;
-        }
-
-        .content-sections {
-            display: grid;
-            gap: 2rem;
-        }
-
-        .content-section {
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
-            padding: 3rem;
-            border-radius: 15px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-        }
-
-        .section-title {
-            font-size: 2rem;
-            color: #2a5298;
-            margin-bottom: 2rem;
-            text-align: center;
-            padding-bottom: 1rem;
-            border-bottom: 2px solid #eee;
+            color: #FFFF00;
+            margin-top: 0;
+            font-size: 24px;
         }
 
         .work-item {
-            border-bottom: 1px solid #eee;
-            padding: 2rem 0;
-        }
-
-        .work-item:last-child {
-            border-bottom: none;
+            background-color: #000020;
+            border: 2px solid #C0C0C0;
+            padding: 20px;
+            margin: 25px 0;
         }
 
         .work-title {
-            font-size: 1.5rem;
-            color: #2a5298;
-            margin-bottom: 0.5rem;
+            color: #00FFFF;
+            font-size: 20px;
+            font-weight: bold;
+            margin: 0 0 10px 0;
+            text-decoration: underline;
         }
 
         .work-meta {
-            color: #666;
+            color: #FFFF00;
             font-style: italic;
-            margin-bottom: 1rem;
+            font-size: 14px;
+            margin-bottom: 15px;
         }
 
-        .work-excerpt {
-            color: #444;
-            line-height: 1.8;
+        .work-content {
+            color: #C0C0C0;
+            line-height: 1.7;
         }
 
         .poem {
             font-style: italic;
             padding-left: 1rem;
-            border-left: 3px solid #2a5298;
+            border-left: 3px solid #00FFFF;
             margin: 1rem 0;
         }
 
-        .poem-line {
-            margin-bottom: 0.5rem;
-        }
-
-        .placeholder-text {
-            color: #888;
-            font-style: italic;
+        .placeholder-box {
+            background-color: #400000;
+            border: 2px dashed #FF0000;
+            padding: 20px;
+            margin: 20px 0;
             text-align: center;
-            padding: 2rem;
-            background: rgba(0,0,0,0.05);
-            border-radius: 10px;
-            margin: 1rem 0;
         }
 
-        @media (max-width: 768px) {
-            .nav-links {
-                gap: 1rem;
+        .placeholder-box p {
+            color: #FF6666;
+            font-style: italic;
+            margin: 10px 0;
+        }
+
+        .back-link {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .back-link a {
+            background-color: #000040;
+            border: 2px solid #00FFFF;
+            padding: 10px 20px;
+            color: #00FFFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .back-link a:hover {
+            background-color: #00FFFF;
+            color: #000080;
+        }
+
+        hr {
+            border: 1px solid #00FFFF;
+            margin: 30px 0;
+        }
+
+        .counter {
+            font-family: "Courier New", monospace;
+            color: #00FF00;
+            font-size: 12px;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .blink {
+            animation: blink 1s linear infinite;
+        }
+
+        @keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        ::-webkit-scrollbar {
+            width: 16px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #000040;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #00FFFF;
+            border: 1px solid #000080;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #FFFF00;
+        }
+
+        @media (max-width: 600px) {
+            .nav-links a {
+                display: block;
+                margin: 5px 0;
             }
             
-            .page-header, .content-section {
-                padding: 2rem;
+            body {
+                padding: 10px;
             }
         }
     </style>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <nav>
-                <a href="index.html" class="logo">Literary Works</a>
-                <ul class="nav-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="essays.html">Essays</a></li>
-                    <li><a href="translations.html">Translations</a></li>
-                    <li><a href="poetry-fiction.html" class="active">Poetry & Fiction</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <div class="container">
+        <h1>📖 POETRY & FICTION ARCHIVE 📖</h1>
 
-    <main>
-        <div class="container">
-            <div class="page-header">
-                <h1>Poetry & Fiction</h1>
-                <p>Creative
+        <div class="counter">
+            Works viewed: <span id="work-count">000058</span> | Section: Poetry & Fiction
+        </div>
+
+        <div class="nav-section">
+            <h2>🧭 SITE NAVIGATION 🧭</h2>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="essays.html">Essays</a>
+                <a href="translations.html">Translations</a>
+                <a href="poetry-fiction.html" class="active">Poetry & Fiction</a>
+            </div>
+        </div>
+
+        <div class="page-header">
+            <h1>Poetry & Fiction Collection</h1>
+            <p>Creative works of imagination and reflection</p>
+            <p class="blink">✨ A journey into stories and verse ✨</p>
+        </div>
+
+        <div class="placeholder-box">
+            <p><strong>WEBMASTER'S NOTE:</strong> This section is currently being populated with creative works.</p>
+            <p>Replace this placeholder with your poems and stories using the template structure below.</p>
+            <p>Each work should follow the format demonstrated in the sample entry.</p>
+        </div>
+
+        <hr>
+
+        <!-- Example work structure -->
+        <div class="work-item">
+            <div class="work-title">Sample Poem: "Dreams by Starlight"</div>
+            <div class="work-meta">Published: [Date] | Category: Poetry</div>
+            <div class="work-content">
+                <div class="poem">
+                    <p class="poem-line">The stars whispered softly,</p>
+                    <p class="poem-line">to the silence of night—</p>
+                    <p class="poem-line">a dream half-remembered,</p>
+                    <p class="poem-line">still flickers with light.</p>
+                </div>
+                <p>[SAMPLE CONTENT - REPLACE WITH YOUR POEM OR STORY]</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="back-link">
+            <a href="index.html">&lt;&lt; Return to Main Archive &gt;&gt;</a>
+        </div>
+
+        <div class="counter">
+            <p style="text-align: center; font-size: 12px; color: #808080; margin-top: 30px;">
+                This page is part of Z.J. Rubin's Literary Works Archive<br>
+                For technical inquiries: zjrubinpa[at]gmail[dot]com
+            </p>
+        </div>
+    </div>
+
+    <script>
+        // Simulate work view counter
+        const counter = document.getElementById('work-count');
+        const baseCount = 58;
+        const sessionCount = Math.floor(Math.random() * 50);
+        counter.textContent = String(baseCount + sessionCount).padStart(6, '0');
+
+        // Email protection
+        document.addEventListener('DOMContentLoaded', function() {
+            const emailElements = document.querySelectorAll('*');
+            emailElements.forEach(element => {
+                if (element.textContent && element.textContent.includes('[at]')) {
+                    element.innerHTML = element.innerHTML
+                        .replace(/\[at\]/g, '@')
+                        .replace(/\[dot\]/g, '.');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
