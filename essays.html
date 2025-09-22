@@ -214,9 +214,54 @@
             border: 1px solid #000080;
         }
 
-        ::-webkit-scrollbar-thumb:hover {
+                ::-webkit-scrollbar-thumb:hover {
             background: #FFFF00;
         }
+
+        /* === NEW ESSAY PREVIEW STYLES === */
+        .essay-preview {
+            background-color: #000020;
+            border: 2px solid #00FFFF;
+            padding: 20px;
+            margin: 25px 0;
+            transition: all 0.3s ease;
+        }
+
+        .essay-preview:hover {
+            border-color: #FFFF00;
+            box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+        }
+
+        .essay-excerpt {
+            color: #C0C0C0;
+            line-height: 1.6;
+            margin-top: 15px;
+        }
+
+        .read-more {
+            color: #FFFF00;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 5px 10px;
+            border: 1px solid #FFFF00;
+            background-color: #000040;
+        }
+
+        .read-more:hover {
+            background-color: #FFFF00;
+            color: #000080;
+        }
+
+        .essay-title a {
+            color: #00FFFF;
+            text-decoration: none;
+        }
+
+        .essay-title a:hover {
+            color: #FFFF00;
+            text-decoration: underline;
+        }
+        /* === END NEW STYLES === */
 
         @media (max-width: 600px) {
             .nav-links a {
