@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resistance, the Graveyard, and Parables of Life - Z.J. Rubin Literary Works</title>
+    <style>
+        body {
+            font-family: "Times New Roman", serif;
+            background-color: #000080;
+            color: #C0C0C0;
+            margin: 0;
+            padding: 20px;
+            background-image: 
+                radial-gradient(circle at 20% 50%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.15) 0%, transparent 50%),
+                radial-gradient(circle at 40% 80%, rgba(120, 200, 255, 0.1) 0%, transparent 50%);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0;
+            padding: 0 20px;
+        }
+
+        h1 {
+            color: #FFFF00;
+            font-size: 28px;
+            text-shadow: 2px 2px 0px #000000;
+            margin: 20px 0;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        h2 {
+            color: #00FFFF;
+            font-size: 20px;
+            text-decoration: underline;
+            margin: 25px 0 15px 0;
+        }
+
+        h3 {
+            color: #FFFF00;
+            font-size: 18px;
+            margin: 20px 0 10px 0;
+        }
+
+        p {
+            line-height: 1.6;
+            margin: 10px 0;
+            text-align: justify;
+        }
+
+        a:link {
+            color: #00FFFF;
+            text-decoration: underline;
+        }
+
+        a:visited {
+            color: #FF69B4;
+            text-decoration: underline;
+        }
+
+        a:hover {
+            color: #FFFF00;
+            background-color: #000040;
+            text-decoration: none;
+        }
+
+        .nav-section {
+            background-color: #000040;
+            border: 2px solid #00FFFF;
+            padding: 15px;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .nav-links {
+            margin: 15px 0;
+        }
+
+        .nav-links a {
+            color: #00FFFF;
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 6px 12px;
+            border: 1px solid #00FFFF;
+            background-color: #000080;
+            display: inline-block;
+            margin-bottom: 8px;
+        }
+
+        .nav-links a:hover {
+            background-color: #00FFFF;
+            color: #000080;
+        }
+
+        .essay-item {
+            background-color: #000020;
+            border: 2px solid #C0C0C0;
+            padding: 20px;
+            margin: 25px 0;
+        }
+
+        .essay-title {
+            color: #00FFFF;
+            font-size: 20px;
+            font-weight: bold;
+            margin: 0 0 10px 0;
+            text-decoration: underline;
+        }
+
+        .essay-meta {
+            color: #FFFF00;
+            font-style: italic;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+        .essay-content {
+            color: #C0C0C0;
+            line-height: 1.7;
+        }
+
+        .back-link {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .back-link a {
+            background-color: #000040;
+            border: 2px solid #00FFFF;
+            padding: 10px 20px;
+            color: #00FFFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .back-link a:hover {
+            background-color: #00FFFF;
+            color: #000080;
+        }
+
+        .works-cited {
+            background-color: #000030;
+            border-left: 4px solid #FFFF00;
+            padding: 20px;
+            margin: 30px 0;
+        }
+
+        .works-cited h3 {
+            color: #FFFF00;
+            margin-top: 0;
+        }
+
+        .works-cited ul {
+            padding-left: 20px;
+        }
+
+        .works-cited li {
+            margin-bottom: 15px;
+            line-height: 1.4;
+        }
+
+        @media (max-width: 600px) {
+            .nav-links a {
+                display: block;
+                margin: 5px 0;
+            }
+            
+            body {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📝 ESSAYS ARCHIVE 📝</h1>
+        
+        <div class="nav-section">
+            <h2>🧭 SITE NAVIGATION 🧭</h2>
+            <div class="nav-links">
+                <a href="../index.html">Home</a>
+                <a href="../essays.html">Back to Essays</a>
+                <a href="../translations.html">Translations</a>
+                <a href="../poetry-fiction.html">Poetry & Fiction</a>
+            </div>
+        </div>
+
+        <div class="essay-item">
+            <div class="essay-title">Resistance, the Graveyard, and Parables of Life</div>
+            <div class="essay-meta">Published: October 15, 2024 | Word Count: 3,850 | Category: Philosophical Essay</div>
+            <div class="essay-content">
+                <p><strong>Zachary Rubin</strong></p>
+
+                <p>How long has this resistance been going on? Not simply resistance as a mode of conflict in which one resists another, but the project of resistance? I speak of the resistance of protesters and activists who resist the forces of unjust governance and those who resist the pressures of uncompromising and harsh societies that do not accept their existence. I speak of the resistance of those involved in civil rights, who challenged racist, xenophobic, and oppressive societies. I speak of the resistance of strikers and union laborers, of organizers and dissidents. I speak of the resistance of Martin Luther King Jr., of Mahatma Gandhi, Nelson Mandela, Harriet Tubman, and Rosa Parks. I speak of Andrea Dworkin, Susan B. Anthony, Rosa Luxemburg, Shulamith Firestone, and Lucy Burns. I speak of Mordechai Anielewicz, Abba Kovner, Hannah Szenes, Haviva Reik, and Sarah Aaronsohn. I too speak of Gilles Deleuze, Félix Guattari, Michel Foucault, Jacques Derrida, Albert Memmi, Frantz Fanon, Hannah Arendt, and the philosophers, anticolonialists, and writers who resist from the halls of the academy. How long has this project been happening? Certainly, it is aeonic.</p>
+
+                <p>These projects of resistance have been crafted over and over again, being constantly reformed to properly adapt to shifting political landscapes. Yet, it always appears without any foreseeable end. A long time has gone by and the radicalism that has promised to revolutionize the world has not yet been realized. Radicals promise us, if we only keep fighting, we will win. However, have we not stopped for a moment to look back? Every person who I have named is dead, yet we carry their banners and portraits forward as the figures of our resistance. We continue to resist in their names. We resist unjust governance, society, colonialism, racism, imperialism, and all manner of forces. Yet, the battle still rages. Perhaps "resistance" is the most apt of terms to denote this project, as it seems like it is always a defensive one. Many ask, when does the offensive strike come? When will the paradigm shift in favor of resistance? However, perhaps it may never come. Radicals assure us, the end is not out of reach, and the war is almost won. Yet, it never comes, those radicals die, and the next generation continues their fight. Still, the project of resistance prevails.</p>
+
+                <p>It is agonizingly evident: all our paragons of resistance are dead, and we have grown inconsolably accustomed to this. The widespread Black Lives Matter protest movement in 2020 was primarily in response to the murder of George Floyd, whose image was raised as a banner of resistance. Even George Floyd could not become a symbolic leader of resistance until after he had died. It appears that our primary project of resistance is ghostly, based off invocations and dreams of the dead. Death is no longer a state in which some of our inspirations reside, it has become the default. In this era, we are faced with a critical dysfunction: we cannot imagine resistance outside the graveyard.</p>
+
+                <p>What is the cause of this debilitation? The late Mark Fisher, a British philosopher and cultural theorist, suggests that under the current state of capitalist production, we are lost and without futures. Our ability to imagine the future has been ripped away from us. This can be seen in contemporary retrofuturism, where aesthetics of the future derives from the past. Contemporary depictions of the future all too often are simply reflections of the same dreams present in the late 20th century and even earlier. Think of the bright neon lights of old arcades and the vintage aesthetics of 1960's <em>Star Trek</em>. Our future seems irreversibly transfixed on the past. Fisher focuses heavily on what he calls <em>Capitalist Realism</em>, the belief that under the current system, there are no alternatives. This likely has notable influence over the inability of resistance movements to remain effective. Our futures are lost, and we have yet to find them. Without a clear ideal for the future, resistance is futile. We cannot look forward, so we must look to the past. Worse yet, we do not look at all, and let our spirits be possessed by the lingering ghosts of dead ideals.</p>
+
+                <p>The philosopher Jaques Derrida spoke of Hauntology, which he differentiated from normative ontology. Hauntology focuses on the being of ghosts and specters, things that are not exactly there. At the time in which Derrida was writing, the United States had just won the cold war with the Soviet Union. This then ushered in a sentiment echoed by those akin to Francis Fukuyama, that this period was decisively 'the end of history' and that Marxism had been, in totality, eliminated. However, Derrida scorned this naivety. From Derrida's perspective, the Specter of Marx would have to be exorcised before Marxism was ever to be annihilated. Hauntology studies these ghostly figures—those which do not fit into normative frameworks of being. As Mark Fisher writes on the subject, "Haunting can be seen as intrinsically resistant to the contraction and homogenization of time and space".</p>
+
+                <p>It is these ghosts that primarily form the framework of resistance that we are familiar with today. Our grand ontologies that we operate within are littered with gaps and tears in which ghostly figures are manifested. These gaps are able to cause severe harm to those who are subjected to them. Those who are stratified between <em>being</em> and <em>becoming</em> are the most affected. Representations are often simply manifestations of an imagined unimaginable other, such as in the case of Orientalism, wherein the fantasy of the 'East' produces a fantastical paradox of identity and reality. These representations linger as ghostly notions, like the aforementioned retrofuturism. Most of what we believe or do is not decisively '<em>real</em>'. This is critical in Hauntology, which recognizes that nothing can truly have being, as is purported in normative ontology. Being is instead never fully present in and of itself.</p>
+
+                <p>There are several factors from which this current state has arisen. One such aspect is the destruction of memory. A certainly severe example is the death of Jewish memory. In the contemporary era, Jewish identity has been ceded from memory to what poet and literary critic Norman Finkelstein refers to as "the profane text of history". A similar conclusion was reached by another scholar in the field of Jewish Studies, Yehuda Kurtzer. In his book <em>Shuva: The Future of the Jewish Past</em>, Kurtzer advocates for a reconstruction of Jewish memory in a process akin to the Jewish ritual practice of <em>Teshuva</em>. The lack of a cohesive memory harms us, as our identities are lost and we cling onto things that we have no personal relation to, like history, in an attempt to reproduce identity.</p>
+
+                <p>The invocation of 'history' plagues us. Fascists are able to utilize it to justify atrocities in the name of the 'rightful' course of history, a text derailed by the scheming Jewish figure, the threatening Black figure, and the vile degenerate. In turn, the most confident of liberals invoke the idea of being 'on the right side of history' as a defense for their beliefs. The war over history is one in which the dead are used like pawns in ideological games. Those who are within the graveyard have no say as to how their spirit will be manipulated. Thus, it is often those who have been victimized the most who are used as weaponry in these battles over historical narratives. The Holocaust is consistently used as a tool to demonize political opponents, whom people repeatedly compare to the Nazis. It is not Jewish people who are consulted for this, but rather the spirit of the six million are waved around as bargaining chips in petty fights to demonize others for the sake of power. Even when Jewish people call on the memory of the Holocaust, they are simply accused of abusing past victimization and even further hatred is invited onto them. The notion of history that we are familiar with is primarily Hegelian in nature. This <em>Weltgeschichte</em> has potentially disastrous implications, from being utilized to create the 'end of history' narratives that harm our ability to dream about the future to fascists who create overly generalized narratives of world history that manufacture images of ethnic, religious, and sexual minorities as threats. Philosopher Hannah Arendt was particularly critical of this notion of history, stating that "radical evil always emerges when we desire the radical good".</p>
+
+                <p>Our projects are ghostly, and therefore dead. Thus, there must be a body buried not too far off in a cemetery. The graveyard is not just death, it is the record. Names are etched into the stone above where the bodies are buried. In this state, the identity and spirit of that person are separated from the body, and they become possessed by the waterwheel of history, mere matter for the history books. In that state, hegemonic forces are able to manipulate these memories just as much, if not more, than anything else.</p>
+
+                <p>Settler-colonial projects have an obsession with the graveyard. In America, Native American graveyards are often used in scary stories—creating the horrific image of the ghosts of the indigenous coming back to haunt the settlers for their crimes. The graveyard is essential to the narrative of American settler-colonialism. It shows that this was once the land of the natives, but that they are now irreversibly in the ground. Native Americans never left the American story—their death was critical. Those who are in the graveyard cannot speak. The lamentably dead native cannot voice its true beliefs, which only allows the dominant settler-colonial order to speak in place of the indigenous. Even when portrayed as regretful, the genocide of Native Americans is the underlying foundation of American expansion. Even when settlers play with ghosts and tell great stories of Native Americans, they tell them as stories of the dead. Ghosts cannot hold land; they are bound to graveyards. To this day, the indigenous must yell: We are still here! For although the stories of Cowboys and Indians fill the American cultural psyche, they may be as foreign as Rome. The fundamental project of American Indigenous rights in the current era is that of recognition, a harsh fight against the graveyard to once again center the lives of the indigenous in the discourse. It is naïve to assume that Settler-colonialism cannot operate within the terrain of ghosts.</p>
+
+                <p>After the imperialist militaristic apparatus of the Roman legion had thoroughly enacted genocide and enslaved the native population of Judea in the wake of the Jewish–Roman wars, they set up their settler-colonial fortress on the fallen, ethnically cleansed capital of Jerusalem. They proclaimed their new colonial city: Aelia Capitolina. Aelia Capitolina was not simply the colonial project of Rome, but the symbolic citadel that proclaimed that the war against Judea had never ended. The guerrilla warfare of the Bar Kokhba Revolt was the resistance against the imperial hegemonic apparatus. Yet, the Jewish war machine could not win out. The blood of the martyred soldiers who had fought to defend their land was strewn all across Judea. The genocide was not enough. The ethnic cleansing was not enough. The enslavement was not enough. Aelia Capitolina had to proclaim that an endless war was to be enacted against Judea, the state which had dared to resist imperial control. There would be no more Jerusalem, nor Roman-controlled Judea, but Aelia Capitolina. With this, a project of complete annihilation was created. This project stated that the Jews simply could not exist. Imperialism was not enough to subdue them. Aelia Capitolina would be built on the graveyard of a slaughtered Judea, and it would exorcise the ghosts that dared to creep up from the graveyard below it. For hundreds of years, Jews were forbidden from entering their old capital city. The war machine of the Bar Kokhba Revolt terrified Rome, and they did not wish to see it come back to resist once more. Aelia Capitolina was not merely the colonial occupation of land; it was a symbol of the ghostly legion that had slain the resistance and would do so again. Aelia Capitolina followed the enslaved Jews to Europe, Asia, the Americas, and everywhere where Rome could extend itself. It was the giant, towering complex that waged ontological war against the Jews. Even as ghosts, Jews are not safe from the terror of Rome. There is no refuge as ghosts, for Rome has built its own fortress of ghosts as well. Every Jew is thus a nomad, fighting an ontological forever-war with Aelia Capitolina, the apparatus that seeks to complete the settler-colonial imperialist project and make all Judea and diaspora barren of Jewish life and spirit. Such is the burden of indigeneity against settler-colonialism, which operates on an annihilative temporality unbounded from land or body. The Gregorian Calendar itself was created as a tool to justify Jewish death. Native Americans and Jewish people are among the groups who have been "made spectral by the war-against-all that has been waged by parasitic colonial-imperial power".</p>
+
+                <p>The graveyard is simply the allocated land for the memory of the colonized people. It is the spiritual reservation, tolerated by the hegemons who had filled the coffins originally. If you are to ask indigenous people for a single message to broadcast to the public, it is: "We are still here". This is a sentiment echoed in the post-holocaust Jewish proclamation, "Am Yisrael Chai" (The people of Israel live). It is in this way that the affirmation of indigeneity or Jewishness as an ontological category becomes itself a critique of colonialism, assimilative hegemons, and Jew-hatred. Those who are tasked with resisting the ontological and ghostly machines that work within hegemons to annihilate their existence have but one critical message that all must heed: "We are still here! We have not vanished!"</p>
+
+                <p>What is it then, to live? This is easily misconstrued as the similar ontological question: "What does it mean to be?". However, it is vital that these be differentiated. If we take into account the presence of a Hauntology and its lingering specters, then the question is elucidated. The ghosts of the past return to haunt us, but there is still a difference between life and death. It must be confronted: ghosts are no solace. They are, in fact, detrimental. The settler-colonial fascination with the graveyard and the fascist pre-occupation with history are nothing from which resistance can be drawn. The picture of a Native American within the museum is not the living, breathing indigenous person.</p>
+
+                <p>The way in which we conceive of our lives can have great power over them. This is the same as the ontologies which make up settler-colonialism and similar drives. However, there is more to life than just being. In fact, it is often these conceptions of beings which produce faulty representations of people and groups in the first place. It is from the point of recognition and forward-facing optimism that we are able to produce new hopes and resistances.</p>
+
+                <p>What will happen when I die? If I take a brief look around, then I get a decisive answer: I will be buried within the graveyard and, if I am so lucky to be notable in any capacity, my name will be dispossessed and I will be added into the profane text of history, the running list of etched names within the book of <em>Weltgeschichte</em>. However, that is not the end of the story. There is another story that I have learned—this is not the end of my soul. My <em>Neshema</em> will go on. Throughout the pages of the teachings of the Arizal and the Baal Shem Tov, there rings a theme: <em>Gilgul HaNeshemot</em>, the wheel of souls—Jewish reincarnation. This is not just one story. My body is not just one body to be put into the ground and never again retrieved. My soul is split into 613 channels, each of which will blossom in another life where I may fail in this one.</p>
+
+                <p>Our parables shape us. The stories we tell create our discourses, our philosophies, and how we treat others and the environment. The story of Gilgul is compelling. Beyond a religious belief, it is a powerful parable for how we are able to reconceptualize ourselves within the present. Death need not be a barren graveyard, nor a spectral existence damned to haunt the present, but something else. Death is not only a figure of personal fear, but also collective anxiety. We often feel as though we are in a battle with death, but that need not be the case. I have faith in the survival of my people and the survival of humanity. As Arendt reminds us, it can always be expected that "'the unexpected can be expected' of humans". Life does not have to be a chaotic pandemonium of spectral figures and bone-chilling memories. Gilgul teaches us that there can be a harmonious, stable structure to the reproduction of the future. The lack of cohesive collective memory wreaks havoc on us, but perhaps we are simply thinking of everything in the wrong way. The Arizal, the Baal Shem Tov, Hannah Arendt, Albert Memmi, Mordechai Anielewicz, Hannah Szenes, Haviva Reik, they are all walking with me. They do not haunt me as ghosts, but their soul-fragments have become alive once again among us. None of them died for nothing. Perhaps I share parts of my soul with them. The mission which I have been given did not start with me and will not end with me. However, each iteration rectifies what the past one could not. Our souls are dancing, in a <em>gilgul</em>—a wheel—of life.</p>
+
+                <div class="works-cited">
+                    <h3>Works Cited</h3>
+                    <ul>
+                        <li>Deloria, Philip J. "The New World of the Indigenous Museum." <em>Daedalus</em>, vol. 147, no. 2, Mar. 2018, pp. 106–15.</li>
+                        <li>Eshel, Amir. "Futurity: Contemporary Literature and the Quest for the Past." <em>Choice/Choice Reviews</em>, vol. 50, no. 12, July 2013, pp. 50–6591.</li>
+                        <li>Fisher, Mark. "What Is Hauntology?" <em>Film Quarterly</em>, vol. 66, no. 1, Jan. 2012, pp. 16–24.</li>
+                        <li>Finkelstein, Norman. "Tradition and Modernity, Judaism and Objectivism: The Poetry of Charles Reznikoff." <em>The Objectivist Nexus</em>, edited by Rachel Blau DuPlessis and Peter Quartermain, The University of Alabama Press, 1999, pp. 191–209.</li>
+                        <li>Frangos, Mike Classon. "The Girl Who Fell to Earth: Sophia Al-Maria's Retro-Futurism." <em>C21 Literature: Journal of 21st-century Writings</em>, vol. 5, no. 3, Dec. 2017.</li>
+                        <li>Hyman, Tryce. <em>Resolving Ontologies of Antisemitism, Orientalism, and the Question of Zionist Colonialism</em>. University of Oklahoma, 2017.</li>
+                        <li>Jacobson, Howard. "Will We Ever Be Forgiven for the Holocaust?" <em>The Forward</em>, 20 Oct. 2013.</li>
+                        <li>Johns, Kieren. "The Roman-Jewish Wars: Jewish Resistance Vs Roman Might." <em>TheCollector</em>, 9 Jan. 2024.</li>
+                        <li>Kim, Chang-Hee. <em>The fantasy of Asian America : identity, ideology, and desire.</em> 1 July 2009.</li>
+                        <li>Krummel, Miriamne Ara. <em>The Medieval Postcolonial Jew, in and Out of Time</em>. 2022.</li>
+                        <li>Kurtzer, Yehuda. <em>Shuva: The Future of the Jewish Past</em>. 2012.</li>
+                        <li>Robinson, Rowland. <em>Settler Colonialism + Native Ghosts: An Autoethnographic Account of the Imaginarium of Late Capitalist/Colonialist Storytelling</em>. 13 Feb. 2020.</li>
+                        <li>Shurpin, Yehuda. "Why and When Does Reincarnation Occur?" <em>Chabad.org</em>, 2011.</li>
+                        <li>Stibbe, Arran. <em>Ecolinguistics: Language, Ecology and the Stories We Live By</em>. 2015.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="back-link">
+            <a href="../essays.html">&lt;&lt; Back to Essays Archive &gt;&gt;</a>
+        </div>
+
+        <div style="text-align: center; font-size: 12px; color: #808080; margin-top: 30px;">
+            <p>This page is part of Z.J. Rubin's Literary Works Archive<br>
+            For technical inquiries: zjrubinpa[at]gmail[dot]com</p>
+        </div>
+    </div>
+
+    <script>
+        // Email protection
+        document.addEventListener('DOMContentLoaded', function() {
+            const emailElements = document.querySelectorAll('*');
+            emailElements.forEach(element => {
+                if (element.textContent && element.textContent.includes('[at]')) {
+                    element.innerHTML = element.innerHTML
+                        .replace(/\[at\]/g, '@')
+                        .replace(/\[dot\]/g, '.');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
