@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essays - Literary Works</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            min-height: 100vh;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #2a5298;
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            transition: color 0.3s ease;
+            position: relative;
+        }
+
+        .nav-links a:hover, .nav-links a.active {
+            color: #2a5298;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -5px;
+            left: 0;
+            background: #2a5298;
+            transition: width 0.3s ease;
+        }
+
+        .nav-links a:hover::after, .nav-links a.active::after {
+            width: 100%;
+        }
+
+        main {
+            margin-top: 80px;
+            padding: 4rem 0;
+        }
+
+        .page-header {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 3rem;
+            text-align: center;
+            margin: 2rem 0;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .page-header h1 {
+            color: white;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .page-header p {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 1.2rem;
+        }
+
+        .content-section {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 3rem;
+            border-radius: 15px;
+            margin: 2rem 0;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .work-item {
+            border-bottom: 1px solid #eee;
+            padding: 2rem 0;
+        }
+
+        .work-item:last-child {
+            border-bottom: none;
+        }
+
+        .work-title {
+            font-size: 1.5rem;
+            color: #2a5298;
+            margin-bottom: 0.5rem;
+        }
+
+        .work-meta {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 1rem;
+        }
+
+        .work-excerpt {
+            color: #444;
+            line-height: 1.8;
+        }
+
+        .placeholder-text {
+            color: #888;
+            font-style: italic;
+            text-align: center;
+            padding: 2rem;
+            background: rgba(0,0,0,0.05);
+            border-radius: 10px;
+            margin: 1rem 0;
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                gap: 1rem;
+            }
+            
+            .page-header, .content-section {
+                padding: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">Literary Works</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="essays.html" class="active">Essays</a></li>
+                    <li><a href="translations.html">Translations</a></li>
+                    <li><a href="poetry-fiction.html">Poetry & Fiction</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="page-header">
+                <h1>Essays</h1>
+                <p>Analytical and personal explorations of ideas, culture, and experience</p>
+            </div>
+
+            <div class="content-section">
+                <div class="placeholder-text">
+                    <p>This is where your essays will appear. Replace this section with your actual essays.</p>
+                    <p>Each essay should follow the structure shown below:</p>
+                </div>
+                
+                <!-- Example essay structure - replace with your actual content -->
+                <div class="work-item">
+                    <h3 class="work-title">Sample Essay Title</h3>
+                    <div class="work-meta">Published Date | Word Count</div>
+                    <div class="work-excerpt">
+                        <p>This is where you would include either the full essay or an excerpt that gives readers a sense of the piece. You can include the complete essay text here, or provide a compelling excerpt with a link to the full version.</p>
+                        <p>Continue with additional paragraphs as needed. The styling will automatically format your content beautifully.</p>
+                    </div>
+                </div>
+
+                <!-- Add more work-item divs for additional essays -->
+                
+            </div>
+        </div>
+    </main>
+</body>
+</html>
