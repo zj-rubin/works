@@ -117,11 +117,18 @@
             font-size: 24px;
         }
 
-        .work-item {
+        /* === NEW WORK PREVIEW STYLES === */
+        .work-preview {
             background-color: #000020;
-            border: 2px solid #C0C0C0;
+            border: 2px solid #00FFFF;
             padding: 20px;
             margin: 25px 0;
+            transition: all 0.3s ease;
+        }
+
+        .work-preview:hover {
+            border-color: #FFFF00;
+            box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
         }
 
         .work-title {
@@ -138,6 +145,36 @@
             font-size: 14px;
             margin-bottom: 15px;
         }
+
+        .work-excerpt {
+            color: #C0C0C0;
+            line-height: 1.7;
+        }
+
+        .work-title a {
+            color: #00FFFF;
+            text-decoration: none;
+        }
+
+        .work-title a:hover {
+            color: #FFFF00;
+            text-decoration: underline;
+        }
+
+        .read-more {
+            color: #FFFF00;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 5px 10px;
+            border: 1px solid #FFFF00;
+            background-color: #000040;
+        }
+
+        .read-more:hover {
+            background-color: #FFFF00;
+            color: #000080;
+        }
+        /* === END NEW STYLES === */
 
         .work-content {
             color: #C0C0C0;
@@ -260,13 +297,40 @@
             <p class="blink">✨ A journey into stories and verse ✨</p>
         </div>
 
-        <div class="placeholder-box">
-            <p><strong>WEBMASTER'S NOTE:</strong> This section is currently being populated with creative works.</p>
-            <p>Replace this placeholder with your poems and stories using the template structure below.</p>
-            <p>Each work should follow the format demonstrated in the sample entry.</p>
+        <!-- ADD YOUR POETRY & FICTION WORKS HERE -->
+        <!-- Use this structure for each work -->
+
+        <div class="work-preview">
+            <div class="work-title"><a href="poetry-fiction/sample-poem.html">Sample Poem: "Dreams by Starlight"</a></div>
+            <div class="work-meta">Published: [Date] | Category: Poetry | Word Count: [Number]</div>
+            <div class="work-excerpt">
+                <div class="poem">
+                    <p>The stars whispered softly,</p>
+                    <p>to the silence of night—</p>
+                    <p>a dream half-remembered,</p>
+                    <p>still flickers with light.</p>
+                </div>
+                <p><a href="poetry-fiction/sample-poem.html" class="read-more">Read full work →</a></p>
+            </div>
         </div>
 
-        <hr>
+        <!-- Example: Add more works using this template -->
+        <!--
+        <div class="work-preview">
+            <div class="work-title"><a href="poetry-fiction/your-work-filename.html">Your Work Title</a></div>
+            <div class="work-meta">Published: Date | Category: Poetry/Fiction | Word Count: XXX</div>
+            <div class="work-excerpt">
+                <p>Brief excerpt or description of your work...</p>
+                <p><a href="poetry-fiction/your-work-filename.html" class="read-more">Read full work →</a></p>
+            </div>
+        </div>
+        -->
+
+        <div class="placeholder-box">
+            <p><strong>WEBMASTER'S NOTE:</strong> This section is currently being populated with creative works.</p>
+            <p>Replace this placeholder with your poems and stories using the template structure above.</p>
+            <p>Each work should be placed in the <code>poetry-fiction/</code> folder.</p>
+        </div>
 
         <hr>
 
