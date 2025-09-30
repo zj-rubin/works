@@ -19,53 +19,47 @@
             background-color: var(--primary-bg);
             color: var(--text-color);
             margin: 0;
-            padding: 0;
+            padding: 20px;
             background-image: 
                 radial-gradient(circle at 20% 50%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
                 radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.15) 0%, transparent 50%),
                 radial-gradient(circle at 40% 80%, rgba(120, 200, 255, 0.1) 0%, transparent 50%);
             line-height: 1.6;
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
         }
 
         .container {
-            max-width: 1200px;
+            max-width: 800px;
+            width: 100%;
             margin: 0 auto;
-            padding: 0 20px;
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 20px;
-        }
-
-        header {
-            text-align: center;
-            padding: 30px 0;
-            border-bottom: 2px solid var(--accent-color);
-            margin-bottom: 30px;
         }
 
         h1 {
             color: var(--accent-color);
-            font-size: 2.5rem;
+            font-size: 28px;
             text-shadow: 2px 2px 0px #000000;
-            margin: 0 0 10px 0;
+            margin: 20px 0;
+            text-align: center;
             font-weight: bold;
-            letter-spacing: 1px;
         }
 
         h2 {
             color: var(--accent-color);
-            font-size: 1.8rem;
+            font-size: 20px;
             text-decoration: underline;
             margin: 25px 0 15px 0;
         }
 
         h3 {
             color: var(--accent-color);
-            font-size: 1.4rem;
+            font-size: 18px;
             margin: 20px 0 10px 0;
         }
 
         p {
+            line-height: 1.6;
             margin: 10px 0;
             text-align: justify;
         }
@@ -73,7 +67,6 @@
         a:link {
             color: var(--link-color);
             text-decoration: underline;
-            transition: all 0.3s ease;
         }
 
         a:visited {
@@ -90,87 +83,64 @@
         .nav-section {
             background-color: var(--secondary-bg);
             border: 2px solid var(--accent-color);
-            padding: 20px;
+            padding: 15px;
             margin: 20px 0;
             text-align: center;
-            border-radius: 5px;
         }
 
         .nav-links {
             margin: 15px 0;
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 15px;
         }
 
         .nav-links a {
             color: var(--link-color);
-            font-size: 1.1rem;
+            font-size: 18px;
             font-weight: bold;
             text-decoration: none;
-            padding: 12px 24px;
+            margin: 0 20px;
+            padding: 8px 16px;
             border: 1px solid var(--link-color);
             background-color: var(--primary-bg);
-            transition: all 0.3s ease;
-            border-radius: 3px;
+            display: inline-block;
+            margin-bottom: 10px;
+            transition: background-color 0.2s ease, color 0.2s ease;
         }
 
         .nav-links a:hover {
             background-color: var(--link-color);
             color: var(--primary-bg);
-            transform: translateY(-2px);
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
         }
 
         .welcome-box {
             background-color: var(--secondary-bg);
             border: 3px solid var(--accent-color);
-            padding: 30px;
+            padding: 20px;
             margin: 30px 0;
             text-align: center;
-            border-radius: 5px;
         }
 
         .welcome-box h2 {
             color: var(--accent-color);
             margin-top: 0;
             text-decoration: none;
-            font-size: 1.8rem;
-        }
-
-        .content-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 25px;
-            margin: 30px 0;
+            font-size: 24px;
         }
 
         .section-preview {
             background-color: #000020;
             border: 2px dashed #C0C0C0;
-            padding: 25px;
-            border-radius: 5px;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            padding: 20px;
+            margin: 20px 0;
+            transition: border-color 0.2s ease;
         }
 
         .section-preview:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            border-color: var(--accent-color);
         }
 
         .section-preview h3 {
             color: var(--link-color);
             margin-top: 0;
-            font-size: 1.5rem;
-        }
-
-        .section-preview p:last-child {
-            margin-top: auto;
         }
 
         .blink {
@@ -198,25 +168,18 @@
         .counter {
             font-family: "Courier New", monospace;
             color: #00FF00;
-            font-size: 0.9rem;
+            font-size: 12px;
             text-align: center;
             margin: 20px 0;
         }
 
         .footer {
             text-align: center;
-            font-size: 0.9rem;
+            font-size: 12px;
             color: #808080;
             margin-top: 50px;
             border-top: 1px solid #404040;
             padding-top: 20px;
-        }
-
-        .about-section {
-            background-color: var(--secondary-bg);
-            padding: 25px;
-            border-radius: 5px;
-            margin: 30px 0;
         }
 
         /* Old-school scrollbar for webkit browsers */
@@ -237,57 +200,25 @@
             background: #FFFF00;
         }
 
-        @media (max-width: 768px) {
-            .container {
-                padding: 0 15px;
-            }
-            
-            h1 {
-                font-size: 2rem;
-            }
-            
-            h2 {
-                font-size: 1.5rem;
-            }
-            
-            .nav-links {
-                flex-direction: column;
-                align-items: center;
-            }
-            
+        @media (max-width: 600px) {
             .nav-links a {
-                width: 80%;
-                text-align: center;
+                display: block;
+                margin: 5px 0;
             }
             
-            .content-grid {
-                grid-template-columns: 1fr;
-            }
-        }
-
-        @media (max-width: 480px) {
             body {
                 padding: 10px;
-            }
-            
-            h1 {
-                font-size: 1.8rem;
-            }
-            
-            .welcome-box, .nav-section, .section-preview {
-                padding: 15px;
             }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1>༼ Z.J. RUBIN'S WRITINGS AND TRANSLATIONS ༽</h1>
-            <div class="counter">
-                Last Updated: <span id="last-updated"></span>
-            </div>
-        </header>
+        <h1>༼ Z.J. RUBIN'S WRITINGS AND TRANSLATIONS ༽</h1>
+        
+        <div class="counter">
+            Last Updated: <span id="last-updated"></span>
+        </div>
 
         <div class="nav-section">
             <h2>NAVIGATION MENU</h2>
@@ -307,43 +238,33 @@
 
         <hr>
 
-        <div class="content-grid">
-            <div class="section-preview">
-                <div>
-                    <h3>Essays</h3>
-                    <p>My work hitherto in philosophy.</p>
-                </div>
-                <p><a href="essays.html">&gt;&gt; Enter the Essays Section &lt;&lt;</a></p>
-            </div>
+        <div class="section-preview">
+            <h3>Essays</h3>
+            <p>My work hitherto in philosophy.</p>
+            <p><a href="essays.html">&gt;&gt; Enter the Essays Section &lt;&lt;</a></p>
+        </div>
 
-            <div class="section-preview">
-                <div>
-                    <h3>Translations</h3>
-                    <p>Works translated from Classical Chinese and Tibetan. (WIP, to be added)</p>
-                </div>
-                <p><a href="translations.html">&gt;&gt; Browse Translation Archive &lt;&lt;</a></p>
-            </div>
+        <div class="section-preview">
+            <h3>Translations</h3>
+            <p>Works translated from Classical Chinese and Tibetan. (WIP, to be added)</p>
+            <p><a href="translations.html">&gt;&gt; Browse Translation Archive &lt;&lt;</a></p>
+        </div>
 
-            <div class="section-preview">
-                <div>
-                    <h3>Poetry & Fiction</h3>
-                    <p>Miscellaneous creative works.</p>
-                </div>
-                <p><a href="poetry-fiction.html">&gt;&gt; Explore Creative Works &lt;&lt;</a></p>
-            </div>
+        <div class="section-preview">
+            <h3>Poetry & Fiction</h3>
+            <p>Miscellaneous creative works.</p>
+            <p><a href="poetry-fiction.html">&gt;&gt; Explore Creative Works &lt;&lt;</a></p>
         </div>
 
         <hr>
 
-        <div class="about-section">
-            <h2>About This Site</h2>
-            <p>This website serves as a digital repository for my works and translations. Navigate using the menu above or the direct links within each section.</p>
-            
-            <p>For my academic homepage and research information, visit: <a href="https://zj-rubin.github.io/zj-rubin/">zj-rubin.github.io/zj-rubin/</a></p>
+        <h2>About This Site</h2>
+        <p>This website serves as a digital repository for my works and translations. Navigate using the menu above or the direct links within each section.</p>
+        
+        <p>For my academic homepage and research information, visit: <a href="https://zj-rubin.github.io/zj-rubin/">zj-rubin.github.io/zj-rubin/</a></p>
 
-            <div class="construction">
-                <p class="blink">🚧 This site is perpetually under construction! 🚧</p>
-            </div>
+        <div class="construction">
+            <p class="blink">🚧 This site is perpetually under construction! 🚧</p>
         </div>
 
         <div class="footer">
